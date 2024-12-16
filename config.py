@@ -4,7 +4,7 @@ from os import environ
 class Config:
     API_ID = environ.get("API_ID", "11756133")
     API_HASH = environ.get("API_HASH", "6d2d5c9ca4fa62699f50feec4edd7b39")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "7409567131:AAGAYFJxlpK5w2o91IckWB5pqlkPWIemJoI")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7712226843:AAEba1gp9zfg34lrO6WIwA3HNkUbUy8Erv0")
     BOT_SESSION = environ.get("BOT_SESSION", "Auto_Forward") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://forwardbot17:rvforward1@cluster0.ubuxz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
